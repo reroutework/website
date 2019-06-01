@@ -4,9 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We love open source and help others. This project is a single example and came out of the frustration, when creating yahoo Oauth and we was not able to use localhost in there allowed return URLs.
+
+Now user can use valid web URL to redirect back to localhost. In future short URLs in todo. See features for more detail.
