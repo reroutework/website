@@ -11,5 +11,23 @@ layout: compress
  		{% include footer.html %}
  		{% include ga.html %}
  		<script src='{{ site.baseurl }}/assets/app.js'></script>
-	</body>
+	  
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+
+	<script>
+	  // Your web app's Firebase configuration
+	  var firebaseConfig = {
+	    apiKey: "AIzaSyBAL2DCLU-qqbjK0MvXMS5fYJ8_I66wv9E",
+	    authDomain: "reroute-be.firebaseapp.com",
+	    databaseURL: "https://reroute-be.firebaseio.com",
+	    projectId: "reroute-be",
+	    storageBucket: "reroute-be.appspot.com",
+	    messagingSenderId: "608322224142",
+	    appId: "1:608322224142:web:3c2b640dd40cbb18"
+	  };
+	  // Initialize Firebase
+	  firebase.initializeApp(firebaseConfig);
+	</script>
+  </body>
 </html>
